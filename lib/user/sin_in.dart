@@ -40,10 +40,7 @@ class _LoginPageState extends State<LoginPage> {
         flexibleSpace: Container(
           decoration: BoxDecoration(
             gradient: LinearGradient(
-              colors: [
-                Color.fromARGB(255, 255, 69, 58),
-                Color.fromARGB(255, 255, 159, 28)
-              ],
+              colors: [Colors.blue, Color.fromARGB(255, 255, 159, 28)],
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
             ),
@@ -52,10 +49,8 @@ class _LoginPageState extends State<LoginPage> {
       ),
       body: Container(
         decoration: BoxDecoration(
-            gradient: LinearGradient(colors: [
-          Color.fromARGB(255, 255, 69, 58),
-          Color.fromARGB(255, 255, 159, 28)
-        ])),
+            gradient: LinearGradient(
+                colors: [Colors.blue, Color.fromARGB(255, 255, 159, 28)])),
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Center(
